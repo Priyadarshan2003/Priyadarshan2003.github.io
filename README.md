@@ -1,4 +1,4 @@
-# Priyadarshan2003.github.io
+# Personal portfolio website
 
-# website for my personal portfolio
-<!-- Under Construction -->
+This website is my personal portfolio project. Hope you like it :)
+PS: Website is still under construction.
