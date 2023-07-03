@@ -1,0 +1,83 @@
+#header{
+    background-color: rgb(13, 2, 2);
+    font-weight: 500;
+}
+
+#landing{
+    background-image: url("../images/nature.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+
+@font-face {
+    font-family: "Anurati";
+    src: url("../fonts/ANURATI Free Font/Anurati-Regular.otf");
+}
+
+h1{
+    font-family: "Anurati", sans-serif;
+    width: 80%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 4rem;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+h1 span{
+    flex:1;
+    text-align: center;
+}
+
+ul{
+    width: 100%;
+}
+@media (max-width:1000px) {
+    h1{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:800px) {
+    h1{
+        width: 95%;
+        padding:0px;
+        font-size: 2.5rem;
+    }
+
+    footer >ul{
+        width:fit-content;
+        padding-bottom: 17px;
+    }
+    
+}
+
+.profile img{
+    border-radius: 50%;
+    height: 25vh;
+    margin: 5%;
+}
+
+.name{
+    display: flex;
+}
+
+.flex-container-1{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+
+}
+.flex-container-2{
+    height: 40%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 0%;
+
+}
