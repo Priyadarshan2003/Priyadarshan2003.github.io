@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
   <head>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -11,22 +11,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Priyadarshan N S</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kavivanar&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karma&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="icon" href="assets/images/favicon.ico" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
   <body>
     <section id="header" class="fixed-top">
-      <div class="container">
-        <header class="d-flex justify-content-center py-2">
-          <ul class="nav nav-pills fixe justify-content-between px-5">
+      <div class="container ">
+        <header class="d-flex justify-content-center py-1">
+          <ul class="nav nav-pills justify-content-between px-5">
             <li class="nav-item">
-              <a href="#" class="nav-link" aria-current="page">Home</a>
+              <a href="#landing" class="nav-link link-dark" aria-current="page">Home</a>
             </li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item">
+              <a href="#about-me" class="nav-link link-dark">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link link-dark">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link link-dark">Contact</a>
+            </li>
           </ul>
         </header>
       </div>
@@ -57,6 +81,192 @@
           <span>A</span>
           <span>N</span>
         </h1>
+      </div>
+    </section>
+
+    <section id="about-me" class="pt-5">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <h2 id="enghello">Hello!</h2>
+            <!--img src="..." class="d-block w-100" alt="..."-->
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <h2 id="tamhello">வணக்கம்!</h2>
+            <!--img src="..." class="d-block w-100" alt="..."-->
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <h2 id="hinhello">नमस्ते!</h2>
+            <!--img src="..." class="d-block w-100" alt="..."-->
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <h2 id="japhello">こんにちは!</h2>
+            <!--img src="..." class="d-block w-100" alt="..."-->
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container px-4 py-5" id="skill-icon-grid">
+        <h2 class="pb-2 border-bottom">My Skills & Tools</h2>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div class="col d-flex align-items-start justify-content-center">
+            <img
+              src="./assets/images/logos/python-logo-2.png"
+              alt="python logo"
+              height="100px"
+            />
+          </div>
+          <div class="col d-flex align-items-start justify-content-center">
+            <img
+              src="./assets/images/logos/640px-C_Programming_Language.svg.png"
+              alt="C logo"
+              height="100px"
+            />
+          </div>
+          
+          <div class="col d-flex align-items-start justify-content-center">
+            <img
+              src="./assets/images/logos/ISO_C++_Logo.svg.png"
+              alt="C++ logo"
+              height="100px"
+            />
+          </div>
+          <div class="col d-flex align-items-start justify-content-center">
+            <img
+              src="./assets/images/logos/java.png"
+              alt="java logo"
+              height="100px"
+            />
+          </div>
+          
+          <div class="col d-flex align-items-start justify-content-center">
+            <img
+              src="./assets/images/logos/mysql.png"
+              alt="mysql logo"
+              height="100px"
+            />
+          </div>
+          <div class="col d-flex align-items-start justify-content-center">
+            <img
+              src="./assets/images/logos/HTML5_logo_and_wordmark.svg.png"
+              alt="html logo"
+              height="100px"
+            />
+          </div>
+          <div class="col d-flex align-items-start justify-content-center">
+            <img
+              src="./assets/images/logos/CSS3_logo_and_wordmark.svg.png"
+              alt="css logo"
+              height="100px"
+            />
+          </div>
+          <div class="col d-flex align-items-start justify-content-center">
+            <img
+              src="./assets/images/logos/bootstrap.jpg"
+              alt="bootstrap logo"
+              height="100px"
+            />
+          </div>
+          
+          
+          <div class="col d-flex align-items-start justify-content-center">
+            <img
+              src="./assets/images/logos/uipath.png"
+              alt="uipath logo"
+              height="100px"
+            />
+          </div>
+          <div class="col d-flex align-items-start justify-content-center">
+            <img
+              src="./assets/images/logos/unity.png"
+              alt="unity logo"
+              height="100px"
+            />
+          </div>
+          <div class="col d-flex align-items-start justify-content-center">
+            <img
+              src="./assets/images/logos/vs code.png"
+              alt="vs code logo"
+              height="100px"
+            />
+          </div>
+          <div class="col d-flex align-items-start justify-content-center">
+            <img
+              src="./assets/images/logos/github.png"
+              alt="github logo"
+              height="100px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container my-5">
+        <div
+          class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            fill="currentColor"
+            class="bi bi-send"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"
+            />
+          </svg>
+          <h1 class="py-3 text-body-emphasis">Contact</h1>
+          <p class="col-lg-8 mx-auto mb-5">
+            Feel free to get in touch with me. <br /><br />Whether you have a
+            question, want to collaborate, or just want to say hello, I'd love
+            to hear from you. <br /><br />Shoot me an email or fill out the form
+            below, and I'll get back to you as soon as possible.
+          </p>
+          <button class="btn btn-primary px-5 mb-5 mx-1" type="button">
+            <a
+              class="link-light"
+              href="mailto:nspriyadarshan@outlook.com"
+              target="_blank"
+              >E - Mail</a
+            >
+          </button>
+          <button class="btn btn-secondary px-5 mb-5 mx-1" type="button">
+            <a
+              class="link-light"
+              href="https://forms.gle/vXUN6iJwA6ZyFZ9g7"
+              target="_blank"
+              >Google Forms</a
+            >
+          </button>
+        </div>
       </div>
     </section>
 
