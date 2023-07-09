@@ -1,144 +1,144 @@
 
-
-#header{
-
-    background-color: rgba(19, 174, 251, 0.950);
-    font-weight: 700;
+.flexbox-lang{
+  display: flex;
+  justify-content: end;
+  padding-right: 25px;
 }
 
-#landing{
-    background-image: url("../images/nature.jpg");
-    background-size: cover;
-    height: 100vh;
+#header {
+  background-color: rgba(19, 174, 251, 0.95);
+  font-weight: 700;
 }
 
-#about-me{
-    padding-top: 42px;
+#landing {
+  background-image: url("../images/nature_1.jpg");
+  background-size: cover;
+  height: 100vh;
 }
 
-#skills{
-    padding-top: 42px;
+#about-me {
+  padding-top: 42px;
 }
 
-#contact{
-    padding-top: 42px;
+#skills {
+  padding-top: 42px;
 }
 
+#contact {
+  padding-top: 42px;
+}
 
 @font-face {
-    font-family: "Anurati";
-    src: url("../fonts/ANURATI Free Font/Anurati-Regular.otf");
+  font-family: "Anurati";
+  src: url("../fonts/ANURATI Free Font/Anurati-Regular.otf");
 }
 
-#landing h1{
-    font-family: "Anurati", sans-serif;
-    width: 80%;
-    text-align: center;
-    margin: 0px;
-    padding: 0px 20px;
-    box-sizing: border-box;
-    display: flex;
-    font-size: 4rem;
-    justify-content: space-between;
-    color: rgb(255, 255, 255);
+#landing h1 {
+  font-family: "Anurati", sans-serif;
+  width: 80%;
+  text-align: center;
+  margin: 0px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 4rem;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
 }
 
-h1 span{
-    flex:1;
-    text-align: center;
+h1 span {
+  flex: 1;
+  text-align: center;
 }
 
-ul{
-    width: 100%;
+ul {
+  width: 100%;
 }
-@media (max-width:1000px) {
-    h1{
-        font-size: 3rem;
-    }
-}
-
-@media (max-width:800px) {
-    #landing h1{
-        width: 95%;
-        padding:0px;
-        font-size: 2.5rem;
-    }
-
-    .nav-link{
-        padding-left:2px;
-        padding-right:2px;
-    }
-
-    footer >ul{
-        width:fit-content;
-        padding-bottom: 17px;
-    }
-    
-}
-
-.profile img{
-    border-radius: 50%;
-    height: 25vh;
-    margin: 5%;
-}
-
-.name{
-    display: flex;
-}
-
-.flex-container-1{
-    height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items:end;
-
-}
-.flex-container-2{
-    height: 40%;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    padding-bottom: 0%;
-
-}
-
-footer img{
-    border-radius: 35%;
-}
-
-.carousel{
-    padding-top: 10px;
-    color:rgb(14, 0, 169);
-}
-
-.carousel h2{
-    text-align: center;
+@media (max-width: 1000px) {
+  h1 {
     font-size: 3rem;
+  }
 }
 
-#enghello{
-    font-family: 'Alkatra', cursive;
-    letter-spacing: 5px;
-}
-#tamhello{
-    font-family: 'Kavivanar', cursive;
-    letter-spacing: 5px;
-}
-#hinhello{
-    font-style: italic;
-    transform: translateY(3px);
-     font-family: 'Karma', serif;
-     letter-spacing: 3px;
-}
-#japhello{
-    font-family: 'Klee One', cursive;
-    font-weight: 600;
+@media (max-width: 800px) {
+  #landing h1 {
+    width: 95%;
+    padding: 0px;
+    font-size: 2.5rem;
+  }
+
+  .nav-link {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  footer > ul {
+    width: fit-content;
+    padding-bottom: 17px;
+  }
 }
 
-#contact a{
-    text-decoration-line: none;
+.profile img {
+  border-radius: 50%;
+  height: 25vh;
+  margin: 5%;
 }
 
-#skill-icon-grid h2{
-    text-align: center;
+.name {
+  display: flex;
+}
+
+.flex-container-1 {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.flex-container-2 {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0%;
+}
+
+footer img {
+  border-radius: 35%;
+}
+
+.carousel {
+  padding-top: 10px;
+  color: rgb(14, 0, 169);
+}
+
+.carousel h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#enghello {
+  font-family: "Alkatra", cursive;
+  letter-spacing: 5px;
+}
+#tamhello {
+  font-family: "Kavivanar", cursive;
+  letter-spacing: 5px;
+}
+#hinhello {
+  font-style: italic;
+  transform: translateY(3px);
+  font-family: "Karma", serif;
+  letter-spacing: 3px;
+}
+#japhello {
+  font-family: "Klee One", cursive;
+  font-weight: 600;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+#skill-icon-grid h2 {
+  text-align: center;
 }
