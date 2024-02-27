@@ -1,5 +1,4 @@
-
-.flexbox-lang{
+.flexbox-lang {
   display: flex;
   justify-content: end;
   padding-right: 25px;
@@ -11,13 +10,17 @@
 }
 
 #landing {
-  background-image: url("../images/nature_1.jpg");
+  background-image: url("../assets/images/nature_1.jpg");
   background-size: cover;
   height: 100vh;
 }
 
 #about-me {
-  padding-top: 42px;
+  padding-top: 60px;
+}
+
+#about-me h2{
+  text-align: center;
 }
 
 #skills {
@@ -30,12 +33,12 @@
 
 @font-face {
   font-family: "Anurati";
-  src: url("../fonts/ANURATI Free Font/Anurati-Regular.otf");
+  src: url("../assets/fonts/ANURATI Free Font/Anurati-Regular.otf");
 }
 
 #landing h1 {
   font-family: "Anurati", sans-serif;
-  width: 80%;
+  width: 95%;
   text-align: center;
   margin: 0px;
   padding: 0px 20px;
@@ -64,7 +67,7 @@ ul {
   #landing h1 {
     width: 95%;
     padding: 0px;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .nav-link {
@@ -78,9 +81,16 @@ ul {
   }
 }
 
+@media (max-width: 500px) {
+  #landing h1 {
+    width: 95%;
+    padding: 0px;
+    font-size: 2rem;
+  }
+}
 .profile img {
   border-radius: 50%;
-  height: 25vh;
+  height: 30vh;
   margin: 5%;
 }
 
@@ -118,21 +128,25 @@ footer img {
 
 #enghello {
   font-family: "Alkatra", cursive;
+  color: rgb(22, 22, 201);
   letter-spacing: 5px;
 }
 #tamhello {
   font-family: "Kavivanar", cursive;
   letter-spacing: 5px;
+  color: rgb(22, 22, 201);
 }
 #hinhello {
   font-style: italic;
   transform: translateY(3px);
   font-family: "Karma", serif;
   letter-spacing: 3px;
+  color: rgb(22, 22, 201);
 }
 #japhello {
   font-family: "Klee One", cursive;
   font-weight: 600;
+  color: rgb(22, 22, 201);
 }
 
 a {
@@ -141,4 +155,12 @@ a {
 
 #skill-icon-grid h2 {
   text-align: center;
+}
+
+.list-unstyled{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
